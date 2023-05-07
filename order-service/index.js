@@ -9,7 +9,7 @@ const isAuthenticated = require("../isAuthenticated");
 var channel, connection;
 
 mongoose.connect(
-  "mongodb://localhost:27017/order-service",
+  "mongodb://localhost:27017/orderService",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

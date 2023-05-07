@@ -15,7 +15,7 @@ app.use(express.json());
 // Connect to the database
 mongoose
   .connect(
-    "mongodb://localhost:27017/product-service",
+    "mongodb://localhost:27017/productService",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

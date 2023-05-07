@@ -55,7 +55,7 @@ app.post("/auth/register", async (req, res) => {
 // Connect to the database
 mongoose
   .connect(
-    "mongodb://localhost:27017/auth-service",
+    "mongodb://localhost:27017/authService",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
